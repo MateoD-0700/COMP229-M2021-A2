@@ -1,0 +1,22 @@
+{
+"components": [
+{
+    "partID" : "1",
+    "name" : "Andrew Davila",
+    "description" : "(647)969-0707",
+    "price" : "adavila@gmail.com"
+},
+{
+    "partID" : "2",
+    "name" : "Bob Marshall ",
+    "description" : "(647)906-7878",
+    "price" : "bmarshall@gmail.com"
+},
+{
+    "partID" : "3",
+    "name" : "Cole Totti",
+    "description" : "(647)876-7471",
+    "price" : "ctotti@gmail.com"
+}
+]
+}

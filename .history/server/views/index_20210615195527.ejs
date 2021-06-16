@@ -1,0 +1,24 @@
+<%- include('./partials/header.ejs') -%>
+
+    <div class="container">
+
+        
+      </div>
+
+      <% if(title == 'Component List') { %>
+        <%- include('./content/component-list.ejs') -%> 
+      <% } else if(title == 'Add Component') { %>
+        <%- include('./content/add-component.ejs') -%> 
+      <% } else if(title == 'Edit Component') { %>
+        <%- include('./content/edit-component.ejs') -%> 
+      <% } %>
+
+
+
+
+    </div>
+    
+<%- include('./partials/footer.ejs') -%>
+    
+
+    
