@@ -139,7 +139,15 @@
 														<a class="btn-block btn-lg btn-primary" href="/components">Update</a>
 													</div>
 
-													
+													<% if(typeof displayName == 'string' && displayName) { %>  
+                    
+                                         <a href="/home/edit/<%= components[count]._id %>" class="btn btn-primary btn-sm">
+                                         <i class="fas fa-edit"></i> Edit</a>
+                    
+                  
+                                         <a href="/component-list/delete/<%= components[count]._id %>" class="btn btn-danger btn-sm">
+                                         <i class="fas fa-trash-alt"></i> Delete</a>
+                                                       <% } %>
 
 													<div class="status"></div>
 												</div>

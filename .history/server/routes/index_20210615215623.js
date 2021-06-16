@@ -22,7 +22,7 @@ router.get('/about', indexController.DisplayAboutPage);
 router.get('/contact', indexController.DisplayContactPage);
 
 /* GET Update page. */
-router.get('/update', indexController.DisplayContactPage);
+router.get('/contact', indexController.DisplayContactPage);
 
 /* GET Display the Login page. */
 router.get('/login', indexController.DisplayLoginPage);

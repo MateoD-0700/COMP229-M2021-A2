@@ -41,7 +41,10 @@ body
     justify-content: center;
 }
 
-
+#form{
+    text-align: right;
+    justify-content: center;
+}
 
 
 #work{
