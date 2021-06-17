@@ -1,1 +1,1 @@
-# COMP229 - Lesson 6
+# Assignment 2
